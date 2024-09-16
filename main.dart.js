@@ -73826,44 +73826,44 @@ case 11:l=a7
 k=A.amJ(l.a,l.b)
 j=A.amw(B.zd)
 i=A.b([["Subject","Start Date","Start Time","End Date","End Time","All Day Event","Description","Location","Private"]],t.X6)
-h=B.yC.eF(i)
-g=new A.c4("")
-g.a+="BEGIN:VCALENDAR\n"
-g.a+="VERSION:2.0\n"
-g.a+="PRODID:-//Prayer Times App//EN\n"
-f=A.uG(A.h1(new A.cK(Date.now(),0,!1)),1,1,0,0,0,0,0)
-e=A.uG(A.h1(new A.cK(Date.now(),0,!1)),12,31,0,0,0,0,0)
-while(!0){a=f
-a0=e
+h=new A.c4("")
+h.a+="BEGIN:VCALENDAR\n"
+h.a+="VERSION:2.0\n"
+h.a+="PRODID:-//Prayer Times App//EN\n"
+g=A.uG(A.h1(new A.cK(Date.now(),0,!1)),1,1,0,0,0,0,0)
+f=A.uG(A.h1(new A.cK(Date.now(),0,!1)),12,31,0,0,0,0,0)
+while(!0){a=g
+a0=f
 a1=a.a
 a2=a0.a
 if(a1>=a2)a=a1===a2&&a.b<a0.b
 else a=!0
-if(!a){a=f
-a0=e
+if(!a){a=g
+a0=f
 a=a.a===a0.a&&a.b===a0.b}else a=!0
 if(!a)break
-d=A.aoL(k,A.VR(A.h1(f),A.dW(f),A.ld(f),0,0,0,0,0),j,null)
-a=d.a
+e=A.aoL(k,A.VR(A.h1(g),A.dW(g),A.ld(g),0,0,0,0,0),j,null)
+a=e.a
 a===$&&A.a()
-n.oX(i,g,"\u0627\u0644\u0641\u062c\u0631",a,f,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0641\u062c\u0631 \u2764\ufe0f")
-a=d.c
+n.oX(i,h,"\u0627\u0644\u0641\u062c\u0631",a,g,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0641\u062c\u0631 \u2764\ufe0f")
+a=e.c
 a===$&&A.a()
-n.oX(i,g,"\u0627\u0644\u0638\u0647\u0631",a,f,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0638\u0647\u0631 \u2764\ufe0f")
-a=d.d
+n.oX(i,h,"\u0627\u0644\u0638\u0647\u0631",a,g,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0638\u0647\u0631 \u2764\ufe0f")
+a=e.d
 a===$&&A.a()
-n.oX(i,g,"\u0627\u0644\u0639\u0635\u0631",a,f,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0639\u0635\u0631 \u2764\ufe0f")
-a=d.e
+n.oX(i,h,"\u0627\u0644\u0639\u0635\u0631",a,g,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0639\u0635\u0631 \u2764\ufe0f")
+a=e.e
 a===$&&A.a()
-n.oX(i,g,"\u0627\u0644\u0645\u063a\u0631\u0628",a,f,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0645\u063a\u0631\u0628 \u2764\ufe0f")
-a=d.f
+n.oX(i,h,"\u0627\u0644\u0645\u063a\u0631\u0628",a,g,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0645\u063a\u0631\u0628 \u2764\ufe0f")
+a=e.f
 a===$&&A.a()
-n.oX(i,g,"\u0627\u0644\u0639\u0634\u0627\u0621",a,f,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0639\u0634\u0627\u0621 \u2764\ufe0f")
-f=f.cK(864e8)}g.a+="END:VCALENDAR\n"
-a=g.a
-c=a.charCodeAt(0)==0?a:a
-if(a5==="csv")n.Hh(h,"\u0645\u0648\u0627\u0642\u064a\u062a \u0627\u0644\u0635\u0644\u0627\u0629.csv")
-else if(a5==="ics")n.Hh(c,"\u0645\u0648\u0627\u0642\u064a\u062a \u0627\u0644\u0635\u0644\u0627\u0629.ics")
+n.oX(i,h,"\u0627\u0644\u0639\u0634\u0627\u0621",a,g,"\u062d\u064a \u0639\u0644\u0649 \u0627\u0644\u0635\u0644\u0627\u0629 \u062d\u064a \u0627\u0644\u0641\u0644\u0627\u062d\u060c \u0635\u0644\u0627\u0629 \u0627\u0644\u0639\u0634\u0627\u0621 \u2764\ufe0f")
+g=g.cK(864e8)}h.a+="END:VCALENDAR\n"
+a=h.a
+d=a.charCodeAt(0)==0?a:a
+c=B.yC.eF(i)
+if(a5==="csv")n.Hh(c,"\u0645\u0648\u0627\u0642\u064a\u062a \u0627\u0644\u0635\u0644\u0627\u0629.csv")
+else if(a5==="ics")n.Hh(d,"\u0645\u0648\u0627\u0642\u064a\u062a \u0627\u0644\u0635\u0644\u0627\u0629.ics")
 n.aq(new A.acW(n))
 a=n.c.ah(t.Pu)
 a.toString
